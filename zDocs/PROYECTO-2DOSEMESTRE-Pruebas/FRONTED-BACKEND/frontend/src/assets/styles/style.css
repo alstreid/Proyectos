@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:ital,wght@0,400;0,600;0,700;0,800;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:ital,wght@0,400;0,600;0,700;0,800;1,500&display=swap');
+
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+    color: rgb(23, 23, 23);
+    text-align: justify;
+    
+}
+h1::first-letter{
+    font-size: 350px;
+    color: rgba(192, 199, 195, 0.724);
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.parrafo{
+    color: #FFFDFC;
+    font-size: 35px;
+}
+
+.header{
+    background-image: linear-gradient(
+        rgba(61, 59, 59, 0.7),
+        rgba(170, 166, 166, 0.7)),
+        url(imagenes/bailarina.jpg);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo{
+    color: #FFFDFC;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: #FFFDFC;
+    display: block;
+    font-weight: 600;
+}
+.menu .navbar ul li a:hover{
+    color: #CE967B;
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.general{
+    display: flex;
+}
+.general-1{
+    width: 50%;
+    padding: 100px 250px 100px 100px;
+    background-color: #e1e2e6;
+}
+.general-2{
+    background-image: url(imagenes/coffe-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+.general-3{
+    background-image: url(imagenes/coffee-2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}

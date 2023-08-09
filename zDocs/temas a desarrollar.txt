@@ -1,0 +1,11 @@
+azure kubernets service aks microsoft
+app services
+réplica y réplica inicial
+arquitectura y prueba de estres
+mysqlmcd
+
+appirest en laravel
+appiquest
+request
+response
+ 
