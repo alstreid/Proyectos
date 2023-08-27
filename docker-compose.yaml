@@ -1,0 +1,9 @@
+services:
+  backend:
+    build: ApiRgs/.
+    ports:
+    - "5000:5000"
+  frontend:
+    build: frontrgt/.
+    ports:
+    - "7001:3000"

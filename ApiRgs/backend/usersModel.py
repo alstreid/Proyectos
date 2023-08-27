@@ -118,7 +118,7 @@ class Users:
       address = request.json['address']
       acceptPromotions = request.json['acceptPromotions']
     
-      if name and lastname and d_i and cel and email and address:
+      if name and lastname and d_i and cel and email:
          mongo.db.clients.update_one({'_id': ObjectId(id)}, {'$set': {
                'name': name, 
                'lastname': lastname, 

@@ -5,7 +5,7 @@ export const Navbar = () => (
     <nav className="navbar navbar-expand-lg bg-danger">
         <div className="container-fluid">
             <Link className="navbar-brand text-white" to="/Prueba">
-                Prueba C.
+                Inicio
             </Link>
             <button
                 className="navbar-toggler"

@@ -90,7 +90,7 @@ def create_client():
             address = request.json['address']
             acceptPromotions = request.json['acceptPromotions']
   
-            if name and lastname and d_i and cel and email and address:
+            if name and lastname and d_i and cel and email:
                 response = Users (name, lastname, d_i, cel, email, address,acceptPromotions)
                 client_creado = response.crear_client()
                 

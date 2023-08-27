@@ -1,2 +1,0 @@
-actualizar methods
-condicional GET

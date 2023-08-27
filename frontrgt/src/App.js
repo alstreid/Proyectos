@@ -7,6 +7,7 @@ import { Prueba } from "./components/Prueba";
 import { Login } from "./components/login";
 import { Registro } from "./components/Registro";
 import { Home } from "./components/Home";
+import { Formulario } from "./components/Formulario";
 import { StepOne } from "./components/StepOne";
 import { StepTwo } from "./components/StepTwo";
 import { StepThree } from "./components/StepThree";
@@ -25,6 +26,7 @@ function App() {
           <Route path="/registro" element={<Registro/>}/>
           <Route path="/login" element={<Login/>}/>
           <Route path="/prueba" element={<Prueba/>}/>
+          <Route path="/Formulario" element={<Formulario/>}/>
           <Route path="/StepOne" element={<StepOne/>}/>
           <Route path="/StepTwo" element={<StepTwo/>}/>
           <Route path="/StepThree" element={<StepThree/>}/>
