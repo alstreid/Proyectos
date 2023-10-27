@@ -1,12 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>prueba</title>
+    <title>Taller</title>
     <script src="index.js"></script>
 </head>
+
 <body>
-    
+    <div>
+        <h1>Hola!! Soy el nuevo Paciente</h1>
+        <p>
+            <span id="mensaje"></span>
+        </p>
+    </div>
+    <script>
+        const mensajeper = document.getElementById("mensaje");
+        if (mensajeper) {
+            const paciente1 = requiere('./index')
+            const instancia = new paciente1();
+            const mensaje = paciente1.MensajePersonalizado();
+            mensajeper.textContent = mensaje;
+        }
+    </script>
 </body>
+
 </html>

@@ -1,3 +1,5 @@
+
+
 class PacienteHospital {
     Nombres: string;
     Apellidos: string;
@@ -32,15 +34,22 @@ class PacienteHospital {
       console.log(`Sexo: ${this.Sexo}`);
       console.log(`Domicilio: ${this.Domicilio}`);
       console.log(`Teléfono: ${this.Telefono}`);
+      return `Nombre: ${this.Edad}, ${this.Sexo}, ${this.Domicilio}, ${this.Telefono}`;
     }
   
     MostrarDatosHospitalarios() {
       console.log(`Datos Hospitalarios del Paciente:`);
       console.log(`Diagnóstico: ${this.Diagnostico}`);
     }
+    
+    MensajePersonalizado(){
+      console.log('Buen día');
+      console.log(`Soy el nuevo paciente:${this.Nombres} ${this.Apellidos}`);
+      return `Buend día, soy el nuevo paciente: ${this.Nombres} ${this.Apellidos}`;
+    }
   }
   
-const paciente1 = new PacienteHospital(
+  const paciente1 = new PacienteHospital(
     "Juan",
     "Pérez",
     35,
@@ -48,8 +57,11 @@ const paciente1 = new PacienteHospital(
     "Calle Principal 123",
     "123-456-7890",
     "Fractura en el brazo"
-  );
-  
+    );
+    
+
   paciente1.MostrarDatosPersonales();
   paciente1.MostrarDatosHospitalarios();
-  
+  paciente1.MensajePersonalizado();
+
+
